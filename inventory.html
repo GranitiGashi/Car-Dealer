@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="assets/slick-1.8.1/slick/slick-theme.css">
+
+    <!---       CSS     ----->
+    <link rel="stylesheet" href="style.css">
+    <title>Car Dealer</title>
+</head>
+<body> 
+  
+    <!-------       Navigation Bar      --------->
+    <nav>
+      <input id="nav-toggle" type="checkbox">
+      <a href="index.html"> <div class="logo">Logo goes here</div></a>
+      <ul class="links">
+          <li><a href="index.html">Home</a></li>   
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Rent a Car</a></li>
+          <li><a href="inventory.html">Inventory</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <label for="nav-toggle" class="icon-burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+      </label>
+  </nav>
+<!--------      Banner    ----  ---------->
+<section id="vehicles_banner">
+  <div class="vehicles_banner_div">
+    <img src="img/inventory.jpg">
+    
+  </div>
+</section>
+
+
+    <!-------       Cars        --------->
+<section id="sell_cars">
+    <div class="car_sale_page">
+        <div class="container">
+            <div class="row">
+                <!------ Car number 1 ------->
+                  <div class="col-xl-4">
+                    <div class="all_cars">
+                    <a href="single_car.html"> 
+
+                    <div class="car_img" id="zoom_In">
+                        <img src="img/e63.jpg">
+                    </div>
+                    <div class="car_details_div">
+                      <div class="car_info">
+                        <h2>Mercedes E63 AMG</h2>
+                    </div>
+                    <div class="all_car_info">
+                        <div class="car_price">
+                            <h4>48.000€</h4>
+                        </div>
+                        <div class="car_detail_info">
+                           <div class="listat_1">
+                            <ul>
+                                <li>
+                                <img src="img/icons/gas-station.png">
+                                <span>Benzin</span>
+                                </li>
+                                    <li>
+                                    <img src="img/icons/manual-transmission.png">
+                                    <span>Automatik</span>
+                                    </li>
+                                        <li>
+                                        <img src="img/icons/calendar.png">
+                                        <span>04.2014</span>
+                                        </li>
+                            </ul>
+                           </div>
+                            <div class="listat_2">
+                                <ul>
+                                    <li>
+                                    <img src="img/icons/car.png">
+                                    <span>5500cm³</span>
+                                    </li>
+                                        <li>
+                                        <img src="img/icons/sedan-car-front.png">
+                                        <span>No Accidents</span>
+                                        </li>
+                                            <li>
+                                            <img src="img/icons/horse-jumping-outline-variant.png">
+                                            <span>550HP (570PS)</span>
+                                            </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                  </a> 
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+</section>
+
+<!--        Footer      -->
+<section class="footer" id="footerdiv">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12 footer-div">
+          <div>
+            <h3 class="text-center">Open Hours</h3>
+            <p>Monday <strong>8:00 - 20:00</strong></p>
+            <p>Tuesday <strong>8:00 - 20:00</strong></p>
+            <p>Wednesday <strong>8:00 - 20:00</strong></p>
+            <p>Thursday <strong>8:00 - 20:00</strong></p>
+            <p>Friday <strong>8:00 - 20:00</strong></p>
+            <p>Saturday <strong>8:00 - 18:00</strong></p>
+            <p>Sunday <strong class="text-danger"> Closed</strong></p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 footer-div text-center">
+          <div>
+            <h3>Navigation links</h3>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="inventory.html">Inventory</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-12 footer-div">
+          <div>
+            <h3>Newsletter</h3>
+            <div class="newsletter-main">
+              <div class="row">
+                <div class="col-lg-12 col-12">
+                  <div class="input-group mb-3">
+                    <input type="email" class="form-control news_letter" placeholder="Your Email" required >
+                    <div class="input-group-append">
+                      <input type="submit" class="input-group-text" value="Subscribe">
+                    </div>
+                  </div>
+        
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="social_media_icon">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+          </div>
+        </div>
+      </div>
+
+      <!-----     Scripts      -->
+      <script src="js/jquery-1.12.4.min.js"></script>
+      <script src="assets/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+      <script src="assets/slick-1.8.1/slick/slick.js"></script>
+      <script src="js/script.js"></script>
+
+    <script>
+      
+    </script>
+
+</body>
+</html>

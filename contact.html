@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="assets/slick-1.8.1/slick/slick-theme.css">
+
+    <!---       CSS     ----->
+    <link rel="stylesheet" href="style.css">
+    <title>Car Dealer</title>
+</head>
+<body> 
+  
+    <!-------       Navigation Bar      --------->
+    <nav>
+      <input id="nav-toggle" type="checkbox">
+      <a href="index.html"> <div class="logo">Logo goes here</div></a>
+      <ul class="links">
+          <li><a href="index.html">Home</a></li>   
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Rent a Car</a></li>
+          <li><a href="inventory.html">Inventory</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <label for="nav-toggle" class="icon-burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+      </label>
+  </nav>
+
+<!-------           Banner          ------------>
+<section id="contact_banner">
+    <div class="contact_banner_div">
+      <img src="img/pexels-maria-geller-2127038.jpg">
+    </div>
+  </section>
+
+  <!-----     Contact Form      --------->
+  
+  <section id="contact_single">
+    <div class="container">
+      <h2 class="text-center">DON’T BE A STRANGER JUST SAY HELLO.</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="other_contact_information">
+              <h4>Our Location</h4>
+              <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://codepen.io/youtube-embed-code/full/jOMpWMB"></a><style>.mapouter{position:relative;text-align:right;height:400px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:100%;}</style><a href="https://codepen.io/embed-google-map/full/BaLrEGr">embed google map</a></div></div>              <div class="social_media_icon_contact">
+                <div class="social_media_icon_contact">
+                  <h4>Get in Touch</h4>  
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-google"></a>
+                  </div>
+                  </div>
+                </div>
+            </div>
+        <div class="col-md-6">
+          <div class="contact_forma">
+          <h4>Contact Us!</h4>
+          <form action="/action_page.php">
+            <div class="form-group">
+              <input type="text" class="form-control single_contact_first" placeholder="Enter Your Name" id="username" required autocomplete="on">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control single_contact" placeholder="Enter Your Lastname" id="lastname" required autocomplete="on">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control single_contact" placeholder="Enter email" id="email" required autocomplete="on">
+            </div>
+            <div class="form-group">  
+              <input type="tel" class="form-control single_contact" placeholder="Enter Mobile Number" id="mobile" autocomplete="off">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control single_contact" rows="5" id="comment" placeholder="Enter Your Message"></textarea>
+            </div>
+            <div class="d-flex justify-content-center form-button">
+            <a type="submit" class="btn submit_button">Send It</a>
+          </div>
+          </form>
+        </div>
+      </div>
+      
+        </div>
+      </div>
+    </section>
+
+
+<!--        Footer      -->
+<section class="footer" id="footerdiv">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12 footer-div">
+          <div>
+            <h3 class="text-center">Open Hours</h3>
+            <p>Monday <strong>8:00 - 20:00</strong></p>
+            <p>Tuesday <strong>8:00 - 20:00</strong></p>
+            <p>Wednesday <strong>8:00 - 20:00</strong></p>
+            <p>Thursday <strong>8:00 - 20:00</strong></p>
+            <p>Friday <strong>8:00 - 20:00</strong></p>
+            <p>Saturday <strong>8:00 - 18:00</strong></p>
+            <p>Sunday <strong class="text-danger"> Closed</strong></p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 footer-div text-center">
+          <div>
+            <h3>Navigation links</h3>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="inventory.html">Inventory</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-12 footer-div">
+          <div>
+            <h3>Newsletter</h3>
+            <div class="newsletter-main">
+              <div class="row">
+                <div class="col-lg-12 col-12">
+                  <div class="input-group mb-3">
+                    <input type="email" class="form-control news_letter" placeholder="Your Email" required >
+                    <div class="input-group-append">
+                      <input type="submit" class="input-group-text" value="Subscribe">
+                    </div>
+                  </div>
+        
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="social_media_icon">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+          </div>
+        </div>
+      </div>
+
+      <!-----     Scripts      -->
+      <script src="js/jquery-1.12.4.min.js"></script>
+      <script src="assets/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+      <script src="assets/slick-1.8.1/slick/slick.js"></script>
+      <script src="js/script.js"></script>
+
+    
+
+
+</body>
+</html>
